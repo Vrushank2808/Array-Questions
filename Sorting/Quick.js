@@ -3,6 +3,7 @@
 
 function quickSort(arr, left = 0, right = arr.length - 1) {
     if (left >= right) {
+        
         return;
     }
     const pivotIndex = partition(arr, left, right);
